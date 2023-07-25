@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import { useOnClickOutside } from "./useOnClickOutside";
+import { useOnClickOutside } from "../useOnClickOutside";
 
 const Navbar = () => {
     const [dropdown, setDropdown] = useState(false);
